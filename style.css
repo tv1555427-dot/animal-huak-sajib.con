@@ -1,0 +1,81 @@
+body {
+  font-family: "Noto Sans Bengali", Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(135deg, #dfe9f3, #ffffff);
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: #2c3e50;
+  margin: 20px 0;
+}
+.box {
+  background: #fff;
+  padding: 25px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 16px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transition: 0.3s;
+}
+.box:hover {
+  transform: scale(1.02);
+}
+label {
+  font-size: 16px;
+  color: #34495e;
+}
+input {
+  padding: 12px;
+  margin: 10px 0;
+  width: 80%;
+  font-size: 16px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: 0.2s;
+}
+input:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52,152,219,0.5);
+}
+button {
+  padding: 12px;
+  margin-top: 12px;
+  width: 85%;
+  font-size: 16px;
+  background: #3498db;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+button:hover {
+  background: #2980b9;
+}
+.result {
+  font-size: 22px;
+  margin-top: 18px;
+  font-weight: bold;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  animation: fadeIn 0.5s ease-in-out;
+}
+.big {
+  background: #ffebee;
+  color: #e53935;
+}
+.small {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+.error {
+  background: #fff3cd;
+  color: #856404;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
+  }
