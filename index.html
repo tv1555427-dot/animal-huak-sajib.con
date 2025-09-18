@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <title>Wingo Chart Checker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🎯 Wingo Chart Checker</h1>
+  <div class="box">
+    <label>উপরের সংখ্যা (0-9):</label><br>
+    <input type="number" id="topNum" min="0" max="9" placeholder="যেমন: 3"><br>
+    
+    <label>নিচের সংখ্যা (1-10):</label><br>
+    <input type="number" id="bottomNum" min="1" max="10" placeholder="যেমন: 7"><br>
+    
+    <button onclick="checkChart()">✅ ফলাফল দেখুন</button>
+    <div class="result" id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
